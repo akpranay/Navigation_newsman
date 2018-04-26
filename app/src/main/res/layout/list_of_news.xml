@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+
+    <TextView
+        android:id="@+id/textViewheadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/abhaya_libre"
+        android:textColor="@color/textViewName"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ib_sh"
+        android:src="@drawable/ic_send_black_24dp"
+        android:layout_below="@id/textViewheadline" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ib_b"
+        android:src="@drawable/un_bookmark_icon"
+        android:layout_below="@+id/textViewheadline"
+        android:layout_marginLeft="50dp"/>
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewBio"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/textViewName" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Story"-->
+        <!--android:id="@+id/summ"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#9069ba"-->
+        <!--android:layout_below="@id/textViewBio"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/textViewRealName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Tony Stark"-->
+        <!--android:autoLink="web"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_below="@id/textViewName"-->
+        <!--/>-->
+
+
+
+    <!--<TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/year" />-->
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_second_layout"-->
+            <!--android:icon="@drawable/ic_filter_list_black_24dp"-->
+            <!--android:title="Prefrences" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_p"-->
+            <!--android:icon="@drawable/ic_filter_list_black_24dp"-->
+            <!--android:title="Politics"/>-->
+        <item
+            android:id="@+id/nav_s"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Business"/>
+        <item
+            android:id="@+id/nav_t"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Entertainment"/>
+        <item
+            android:id="@+id/nav_i"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Important"/>
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/bookmark_icon"
+            android:title="Bookmarks"/>
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+
+    </group>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp" />
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
